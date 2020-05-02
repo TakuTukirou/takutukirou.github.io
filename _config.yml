@@ -1,0 +1,12 @@
+title: Takkun0530-page
+email: takkun0530.scratch@outlook.jp
+description: >-
+  This is the new homepage of Takkun0530.
+baseurl: ""
+url: "http://takkun0530.github.io/"
+twitter_username: Takkun053
+github_username:  Takkun0530
+
+theme: minima
+plugins:
+  - jekyll-feed

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>
+    HOME | TakuTukirou公式ホームページ
+  </title>
+  <meta http-http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+  <link rel=”icon” href=“../favicon.ico”>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js">
+  </script>
+  <script src="../assets/main.js">
+  </script>
+  <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
+  <link href="../assets/main.css" rel="stylesheet">
+  <style media="screen">
+    .welcome{
+      height: 400px;
+      background-color: #66cccc;
+    }
+    .welcome img{
+      padding: 72px;
+      float: left;
+      border-radius: 130px;
+    }
+    .welcome2{
+      max-width: 50%;
+      margin: 0 auto;
+    }
+    .welcome3{
+      padding: 100px;
+      color: #36393f;
+    }
+    .welcome3 .button{
+      padding: 10px 95px;
+      background-color: #36393f;
+    }
+    .welcome3 .button:hover{
+      background-color: #66cccc;
+    }
+    .content{
+      max-width: 80%;
+      margin: 0 auto;
+    }
+    .content2{
+      padding: 30px;
+      float: left;
+    }
+    .content-team{
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-align-items: stretch;
+      align-items: stretch;
+    }
+    .content-team2{
+      float: left;
+      text-align: center;
+      padding: 10px 15px;
+    }
+    .content-team2 img{
+      border-radius: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  {% include header.html %}
+
+  <div class="welcome">
+    <div class="welcome2">
+      <img src="../img/takutuki.png" width="250" height="250"><!--to:takkun 微調節しろ-->
+      <div class="welcome3">
+        <h1>
+          TakuTukirou
+        </h1>
+        <div>
+          ーTakuTukirouTeamが作りだした高性能DiscordBot
+        </div>
+        <p>
+          <a href="https://discordapp.com/oauth2/authorize?client_id=476012428170362880&permissions=2147347828&scope=bot" target="_blank" class="button">
+            導入する
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content2">
+      <h1>
+        About-TakuTukirouとは
+      </h1>
+      <div>
+        TakuTukirouは高性能DiscordBotです。
+      </div>
+      <div>
+        サーバーの管理、ゲームのプレイ、音楽の再生など様々なことができます。
+      </div>
+      <div>
+        現在導入サーバーは50を超えています。
+      </div>
+      <div>
+        あなたのサーバーでも導入しましょう。
+      </div>
+      <p>
+        <a href="https://discordapp.com/oauth2/authorize?client_id=476012428170362880&permissions=2147347828&scope=bot" target="_blank" class="button">
+          サーバーに導入する
+        </a>
+      </p>
+    </div>
+    <div>
+      <img src="../img/about.png" width="500" style="padding: 60px 30px 60px 0px;">
+    </div>
+  </div>
+  <br>
+  <h1 align="center">
+    Command-できること
+  </h1>
+  <div class="content" style="max-width: 80%;">
+    <div class="content2" style="padding: 30px 130px 30px 30px;">
+      <h2>
+        ログ機能
+      </h2>
+      <div>
+        ユーザーが行った行動が記録されます。
+      </div>
+      <div>
+        メッセージの編集、メッセージの削除、チャンネルの作成、
+      </div>
+      <div>
+        チャンネルの削除、ユーザーの入室、役職の作成、役職の変更
+      </div>
+    </div>
+    <div>
+      <img src="../img/log.png" width="500" style="padding: 10px 30px 10px 0px;">
+    </div>
+  </div>
+  <br>
+  <div class="content" style="max-width: 80%;">
+    <div class="content2" style="padding: 30px 100px 30px 30px;">
+      <h2>
+        レベルアップ通知
+      </h2>
+      <div>
+        レベルアップするとDMにメッセージがきます。
+      </div>
+      <div>
+        通知をチャンネルに流したり、通知をOFFにすることもできます。
+      </div>
+    </div>
+    <div>
+      <img src="../img/levelup.png" width="500" style="padding: 55px 30px 55px 0px;">
+    </div>
+  </div>
+  <br>
+  <div class="content" style="max-width: 80%;">
+    <div class="content2" style="padding: 30px 275px 30px 30px;">
+      <h2>
+        グローバルチャット機能
+      </h2>
+      <div>
+        他のサーバーとつながることができます。
+      </div>
+    </div>
+    <div>
+      <img src="../img/g-chat.png" width="500" style="padding: 45px 30px 45px 0px;">
+    </div>
+  </div>
+  <br>
+  <div class="content" style="max-width: 80%;">
+    <div class="content2" style="padding: 30px 90px 30px 30px;">
+      <h2>
+        他にも
+      </h2>
+      <div>
+        TakuTukirouには他にもいろいろな機能があります。
+      </div>
+      <div>
+        グローバルBANやニュース・天気などのお知らせする機能、
+      </div>
+      <div>
+        いろいろなゲーム機能など
+      </div>
+      <div>
+        あなたもたくさんの機能があるTakuTukirouを導入してみませんか？
+      </div>
+      <p>
+        <a href="https://discordapp.com/oauth2/authorize?client_id=476012428170362880&permissions=2147347828&scope=bot" target="_blank" class="button">
+          サーバーに導入する
+        </a>
+        <a href="" class="button">
+          詳細はこちら
+        </a>
+      </p><!--ここのリンクを変える-->
+    </div>
+    <div>
+      <img src="../img/help.png" width="500" style="padding: 0px 30px 0px 0px;">
+    </div>
+  </div>
+  <center>
+    <br>
+    <h1>
+      News-お知らせ
+    </h1>
+    <div>
+      <font color="gray">
+        Not Found
+      </font>
+    </div>
+    <br>
+    <h1>
+      Tweet-つぶやき
+    </h1>
+    <div>
+      <font color="gray">
+        Not Found
+      </font>
+    </div>
+    <br>
+    <h1>
+      Team-TakuTukirouTeamについて
+    </h1>
+    <div>
+      TakuTukirouTeamは現在11人です。
+    </div>
+    <div>
+      現在チームメンバーを募集中です。
+    </div>
+    <div class="content-team">
+      <div class="content-team2">
+        <div>
+          <img src="../img/team/t-taku.png" width="70" height="70">
+        </div>
+        <div>
+          T-taku
+        </div>
+      </div>
+      <div class="content-team2">
+        <div>
+          <img src="https://cdn.discordapp.com/avatars/415526420115095554/e257e4731a5808c7e31d2e441d76b761.png?size=256" width="70" height="70">
+        </div>
+        <div>
+          陸ステ
+        </div>
+      </div>
+      <div class="content-team2">
+        <div>
+          <img src="../img/team/ao.png" width="70" height="70">
+        </div>
+        <div>
+          AO
+        </div>
+      </div>
+      <div class="content-team2">
+        <div>
+          <img src="../img/team/grarich.png" width="70" height="70">
+        </div>
+        <div>
+          grarich
+        </div>
+      </div>
+      <div class="content-team2">
+        <div>
+          <img src="https://cdn.discordapp.com/avatars/546682137240403984/627dbcd9e1b0ee1eebc2c11ea9033817.png?size=256" width="70" height="70">
+        </div>
+        <div>
+          Midorichan
+        </div>
+      </div>
+      <div class="content-team2">
+        <div>
+          <img src="https://cdn.discordapp.com/avatars/404243934210949120/404bb076b808b13fab46ab702fbbb9b8.png?size=256" width="70" height="70">
+        </div>
+        <div>
+          mii-10
+        </div>
+      </div>
+      <div class="content-team2">
+        <div>
+          <img src="../img/team/parfait9.png" width="70" height="70">
+        </div>
+        <div>
+          parfait9
+        </div>
+      </div>
+      <div class="content-team2">
+        <div>
+          <img src="../img/team/takkun.png" width="70" height="70">
+        </div>
+        <div>
+          Takkun
+        </div>
+      </div>
+      <div class="content-team2">
+        <div>
+          <img src="../img/team/wdjo9.png" width="70" height="70">
+        </div>
+        <div>
+          wdjo9
+        </div>
+      </div>
+      <div class="content-team2">
+        <div>
+          <img src="../img/team/naarisan7163.png" width="70" height="70">
+        </div>
+        <div>
+          名有りさん！
+        </div>
+        <div>
+          naarisan7163
+        </div>
+      </div>
+      <div class="content-team2">
+        <div>
+          <img src="https://cdn.discordapp.com/avatars/385746925040828418/8fbf54fa25dcd8d602b2341e20dc96b5.png?size=256" width="70" height="70">
+        </div>
+        <div>
+          蘭玲
+        </div>
+      </div>
+    </div>
+    <p>
+      <a href="" class="button">
+        詳細はこちら
+      </a>
+    </p><!--ここのリンクを変える-->
+    <br>
+    <h1>
+      Contact-連絡先
+    </h1>
+    <div>
+      TakuTukirouに関する質問・提案はTwitterのDMまたはDiscord公式サーバーからできます。
+    </div>
+    <p>
+      <a href="https://discord.gg/gphVMZD"　target="_blank" class="button">
+        Discordサーバー
+      </a>
+      <a href="https://twitter.com/TDiscordbot"　target="_blank" class="button">
+        公式Twitter
+      </a>
+    </p><!--ここのリンクを変える-->
+    <br>
+  </center>
+
+    {% include footer.html %}
+
+</body>
+</html>
